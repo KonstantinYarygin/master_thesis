@@ -1,0 +1,40 @@
+\documentclass[master,14pt,subf,href,colorlinks=true
+%,times        % шрифт Times как основной
+%,fixint=false % отключить прямые знаки интегралов
+]{disser}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+\usepackage[a4paper, mag=1000, includefoot, left=3cm, right=2cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\ifpdf\usepackage{epstopdf}\fi
+
+% Номера страниц сверху и по центру
+%\def\headfont{\small}
+%\pagestyle{headcenter}
+%\chapterpagestyle{empty}
+
+% Точка с запятой в качестве разделителя между номерами цитирований
+%\setcitestyle{semicolon}
+
+% Использовать полужирное начертание для векторов
+\let\vec=\mathbf
+
+% Включать подсекции в оглавление
+\setcounter{tocdepth}{2}
+
+\graphicspath{{figure/}}
+
+
+\begin{document}
+\input{d_thesis_title}
+\tableofcontents % это оглавление, которое генерируется автоматически
+% \input{review} % это титульный лист
+\end{document}
+% рекомендуется оформлять текст шрифтом Times New Roman от 12 до 14 pt
+% межстрочный интервал 1.5
+% выравнивание в абзацах по ширине
+% поля на странице: левое – 30 мм, остальные 20 мм.
