@@ -1,0 +1,18 @@
+\section{Список сокращений}
+
+ЖКТ --- Желудочно-кишечный тракт \\
+ИАТ --- Интеллектуальный анализ текстов \\
+ИАБТ --- Интеллектуальный анализ биомедицинских текстов \\
+КЖК --- Короткоцепочечные жирные кислоты \\
+MEMM, МММЭ --- Maximum entropy markov models, Марковские модели максимальной энтропии \\
+SVM, МОВ --- Support vector machine, Метод опорных векторов \\
+NLP, ОЕЯ --- Natural language processing, Обработка естественных языков \\
+NER, РИС --- Named entity recognition, Распознование именнованных сущностей \\
+CRF, УСП --- Conditional random fields, Условные случайные поля \\
+CSD --- Complementary structures in disjoint literatures, Комплементарные структуры в непересекающихся литературах \\
+GO --- Gene ontology, Онтология генов \\
+MeSH --- Medical subject headings, Медицинские предметные рубрики \\
+NGS --- Next-Generation sequencing, Секвенирование нового поколения \\
+UMLS --- Unified medical language system, Унифицированный язык медицинских систем
+
+\newpage

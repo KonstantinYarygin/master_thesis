@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.23)  23 JUN 2016 19:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.23)  28 JUN 2016 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**d_thesis_main.tex
-(./d_thesis_main.tex
+**thesis_main.tex
+(./thesis_main.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/disser/disser.cls
@@ -872,8 +872,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(./d_thesis_main.aux)
-\openout1 = `d_thesis_main.aux'.
+(./thesis_main.aux)
+\openout1 = `thesis_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -912,9 +912,9 @@ LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
 
-(./d_thesis_main.out) (./d_thesis_main.out)
+(./thesis_main.out) (./thesis_main.out)
 \@outlinefile=\write3
-\openout3 = `d_thesis_main.out'.
+\openout3 = `thesis_main.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -965,7 +965,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./d_thesis_title
+(./thesis_title)
 \firstskip=\skip61
 \secondskip=\skip62
 \thirdskip=\skip63
@@ -974,40 +974,109 @@ LaTeX Info: Redefining \nameref on input line 32.
 \sixthskip=\skip66
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./d_thesis_main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./thesis_main.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+euex on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuex.fd
+File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
+))
 \tf@toc=\write4
-\openout4 = `d_thesis_main.toc'.
+\openout4 = `thesis_main.toc'.
 
  [2
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
- (./d_thesis_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
-Package rerunfilecheck Info: File `d_thesis_main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
+(./abbreviations
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 13.70703pt
+(hyperref)                replaced by space on input line 1.
+
+[3
+
+]) (./introduction
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 13.70703pt
+(hyperref)                replaced by space on input line 1.
+
+[4]
+
+Package natbib Warning: Citation `He_2009' on page 5 undefined on input line 7.
+
+
+
+Package natbib Warning: Citation `Saric_2006' on page 5 undefined on input line
+ 7.
+
+
+Package natbib Warning: Citation `Chen_2008' on page 5 undefined on input line 
+7.
+
+
+Overfull \hbox (6.01492pt too wide) in paragraph at lines 7--8
+\T2A/cmr/m/n/14.4 тел^^?лек^^?ту^^?аль^^?ный ана^^?лиз био^^?ме^^?ди^^?цин^^?ск
+их тек^^?стов (ИА^^?БТ, \T2A/cmr/m/it/14.4 ан^^?гл.\T2A/cmr/m/n/14.4 : biomedic
+al
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+ [5]) (./review
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 13.70703pt
+(hyperref)                replaced by space on input line 1.
+
+) (./thesis_main.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+ (./thesis_main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package rerunfilecheck Info: File `thesis_main.out' has not changed.
+(rerunfilecheck)             Checksum: 00ACDF8670740567BECF77105050377E;530.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 13359 strings out of 494515
- 189497 string characters out of 6173718
- 264208 words of memory out of 5000000
- 16413 multiletter control sequences out of 15000+600000
- 7998 words of font info for 20 fonts, out of 8000000 for 9000
+ 13471 strings out of 494515
+ 191119 string characters out of 6173718
+ 264206 words of memory out of 5000000
+ 16465 multiletter control sequences out of 15000+600000
+ 12525 words of font info for 35 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 43i,5n,40p,242b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </hom
-e/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk> </home/konsta
-ntin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/konstantin/.te
-xmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk>
-Output written on d_thesis_main.pdf (2 pages, 43520 bytes).
+ 43i,5n,40p,2420b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </hom
+e/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/konsta
+ntin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/konstantin/.te
+xmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk> </home/konstantin/.texmf-var/
+fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/konstantin/.texmf-var/fonts/pk
+/ljfour/lh/lh-t2a/larm1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb>
+Output written on thesis_main.pdf (6 pages, 85230 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 5 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
