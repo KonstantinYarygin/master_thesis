@@ -1,0 +1,844 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{He_2009}
+\selectlanguageifdefined{english}
+\BibEmph{He~M., Wang~Y., Li~W.} PPI finder: a mining tool for human
+  protein-protein interactions~// \BibEmph{PloS one}.
+\newblock 2009.
+\newblock Vol.~4, no.~2.
+\newblock P.~e4554.
+
+\bibitem{Saric_2006}
+\selectlanguageifdefined{english}
+\BibEmph{{\v{S}}ari{\'c}~J., Jensen~L.~J., Ouzounova~R. et~al.} Extraction of
+  regulatory gene/protein networks from Medline~// \BibEmph{Bioinformatics}.
+\newblock 2006.
+\newblock Vol.~22, no.~6.
+\newblock P.~645--650.
+
+\bibitem{Chen_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Chen~E.~S., Hripcsak~G., Xu~H. et~al.} Automated acquisition of
+  disease--drug knowledge from biomedical and clinical documents: an initial
+  study~// \BibEmph{Journal of the American Medical Informatics Association}.
+\newblock 2008.
+\newblock Vol.~15, no.~1.
+\newblock P.~87--98.
+
+\bibitem{Sender_2016}
+\selectlanguageifdefined{english}
+\BibEmph{Sender~R., Fuchs~S., Milo~R.} Revised estimates for the number of
+  human and bacteria cells in the body~// \BibEmph{BioRxiv}.
+\newblock 2016.
+\newblock P.~036103.
+
+\bibitem{Ley_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Ley~R.~E., Peterson~D.~A., Gordon~J.~I.} Ecological and evolutionary
+  forces shaping microbial diversity in the human intestine~// \BibEmph{Cell}.
+\newblock 2006.
+\newblock Vol. 124, no.~4.
+\newblock P.~837--848.
+
+\bibitem{Gebbers_1988}
+\selectlanguageifdefined{english}
+\BibEmph{Gebbers~J., Laissue~J.} Immunologic structures and functions of the
+  gut.~// \BibEmph{Schweizer Archiv fur Tierheilkunde}.
+\newblock 1988.
+\newblock Vol. 131, no.~5.
+\newblock P.~221--238.
+
+\bibitem{Wallace_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Wallace~T.~C., Guarner~F., Madsen~K. et~al.} Human gut microbiota and
+  its relationship to health and disease~// \BibEmph{Nutrition Reviews}.
+\newblock 2011.
+\newblock Vol.~69, no.~7.
+\newblock P.~392--403.
+
+\bibitem{Renz_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Renz~H., Brandtzaeg~P., Hornef~M.} The impact of perinatal immune
+  development on mucosal homeostasis and chronic inflammation~//
+  \BibEmph{Nature Reviews Immunology}.
+\newblock 2012.
+\newblock Vol.~12, no.~1.
+\newblock P.~9--23.
+
+\bibitem{Stecher_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Stecher~B., Hardt~W.-D.} Mechanisms controlling pathogen colonization
+  of the gut~// \BibEmph{Current opinion in microbiology}.
+\newblock 2011.
+\newblock Vol.~14, no.~1.
+\newblock P.~82--91.
+
+\bibitem{Smith_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Smith~K., McCoy~K.~D., Macpherson~A.~J.} Use of axenic animals in
+  studying the adaptation of mammals to their commensal intestinal
+  microbiota~// Seminars in immunology~/ Elsevier.
+\newblock Vol.~19.
+\newblock 2007.
+\newblock P.~59--69.
+
+\bibitem{He_2008}
+\selectlanguageifdefined{english}
+\BibEmph{He~T., Priebe~M., Zhong~Y. et~al.} Effects of yogurt and
+  bifidobacteria supplementation on the colonic microbiota in
+  lactose-intolerant subjects~// \BibEmph{Journal of Applied Microbiology}.
+\newblock 2008.
+\newblock Vol. 104, no.~2.
+\newblock P.~595--604.
+
+\bibitem{Lievin_Le_Moal_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Li{\'e}vin-Le~Moal~V., Servin~A.~L.} Anti-infective activities of
+  lactobacillus strains in the human intestinal microbiota: from probiotics to
+  gastrointestinal anti-infectious biotherapeutic agents~// \BibEmph{Clinical
+  microbiology reviews}.
+\newblock 2014.
+\newblock Vol.~27, no.~2.
+\newblock P.~167--199.
+
+\bibitem{Brigidi_2001}
+\selectlanguageifdefined{english}
+\BibEmph{Brigidi~P., Vitali~B., Swennen~E. et~al.} Effects of probiotic
+  administration upon the composition and enzymatic activity of human fecal
+  microbiota in patients with irritable bowel syndrome or functional
+  diarrhea~// \BibEmph{Research in Microbiology}.
+\newblock 2001.
+\newblock Vol. 152, no.~8.
+\newblock P.~735--741.
+
+\bibitem{Gill_2002}
+\selectlanguageifdefined{english}
+\BibEmph{Gill~C., Rowland~I.} Diet and cancer: assessing the risk~//
+  \BibEmph{British journal of nutrition}.
+\newblock 2002.
+\newblock Vol.~88, no.~S1.
+\newblock P.~s73--s87.
+
+\bibitem{Swidsinski_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Swidsinski~A., Loening-Baucke~V., Verstraelen~H. et~al.} Biostructure
+  of fecal microbiota in healthy subjects and patients with chronic idiopathic
+  diarrhea~// \BibEmph{Gastroenterology}.
+\newblock 2008.
+\newblock Vol. 135, no.~2.
+\newblock P.~568--579.
+
+\bibitem{Longstreth_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Longstreth~G.~F., Thompson~W.~G., Chey~W.~D. et~al.} Functional bowel
+  disorders~// \BibEmph{Gastroenterology}.
+\newblock 2006.
+\newblock Vol. 130, no.~5.
+\newblock P.~1480--1491.
+
+\bibitem{Norman_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Norman~K., Pirlich~M.} Gastrointestinal tract in liver disease: which
+  organ is sick?~// \BibEmph{Current Opinion in Clinical Nutrition \& Metabolic
+  Care}.
+\newblock 2008.
+\newblock Vol.~11, no.~5.
+\newblock P.~613--619.
+
+\bibitem{Kim_2001}
+\selectlanguageifdefined{english}
+\BibEmph{Kim~S.~W., Peck~K.~R., Jung~S.~I. et~al.} Pseudomonas aeruginosa as a
+  potential cause of antibiotic-associated diarrhea.~// \BibEmph{Journal of
+  Korean medical science}.
+\newblock 2001.
+\newblock Vol.~16, no.~6.
+\newblock P.~742.
+
+\bibitem{Kelly_1994}
+\selectlanguageifdefined{english}
+\BibEmph{Kelly~C.~P., Pothoulakis~C., LaMont~J.~T.} Clostridium difficile
+  colitis~// \BibEmph{New England Journal of Medicine}.
+\newblock 1994.
+\newblock Vol. 330, no.~4.
+\newblock P.~257--262.
+
+\bibitem{Zoetendal_1998}
+\selectlanguageifdefined{english}
+\BibEmph{Zoetendal~E.~G., Akkermans~A.~D., De~Vos~W.~M.} Temperature gradient
+  gel electrophoresis analysis of 16S rRNA from human fecal samples reveals
+  stable and host-specific communities of active bacteria~// \BibEmph{Applied
+  and environmental microbiology}.
+\newblock 1998.
+\newblock Vol.~64, no.~10.
+\newblock P.~3854--3859.
+
+\bibitem{Costello_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Costello~E.~K., Lauber~C.~L., Hamady~M. et~al.} Bacterial community
+  variation in human body habitats across space and time~// \BibEmph{Science}.
+\newblock 2009.
+\newblock Vol. 326, no. 5960.
+\newblock P.~1694--1697.
+
+\bibitem{Walker_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Walker~A.~W., Ince~J., Duncan~S.~H. et~al.} Dominant and
+  diet-responsive groups of bacteria within the human colonic microbiota~//
+  \BibEmph{The ISME journal}.
+\newblock 2011.
+\newblock Vol.~5, no.~2.
+\newblock P.~220--230.
+
+\bibitem{Martinez_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Mart{\'\i}nez~I., Kim~J., Duffy~P.~R. et~al.} Resistant starches types
+  2 and 4 have differential effects on the composition of the fecal microbiota
+  in human subjects~// \BibEmph{PloS one}.
+\newblock 2010.
+\newblock Vol.~5, no.~11.
+\newblock P.~e15046.
+
+\bibitem{Russell_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Russell~W.~R., Gratz~S.~W., Duncan~S.~H. et~al.} High-protein,
+  reduced-carbohydrate weight-loss diets promote metabolite profiles likely to
+  be detrimental to colonic health~// \BibEmph{The American journal of clinical
+  nutrition}.
+\newblock 2011.
+\newblock Vol.~93, no.~5.
+\newblock P.~1062--1072.
+
+\bibitem{Flint_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Flint~H.~J., Duncan~S.~H., Scott~K.~P., Louis~P.} Interactions and
+  competition within the microbial community of the human colon: links between
+  diet and health~// \BibEmph{Environmental microbiology}.
+\newblock 2007.
+\newblock Vol.~9, no.~5.
+\newblock P.~1101--1111.
+
+\bibitem{Scott_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Scott~K., Duncan~S., Flint~H.} Dietary fibre and the gut microbiota~//
+  \BibEmph{Nutrition Bulletin}.
+\newblock 2008.
+\newblock Vol.~33, no.~3.
+\newblock P.~201--211.
+
+\bibitem{Russell_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Russell~W.~R., Scobbie~L., Chesson~A. et~al.} Anti-inflammatory
+  implications of the microbial transformation of dietary phenolic compounds~//
+  \BibEmph{Nutrition and cancer}.
+\newblock 2008.
+\newblock Vol.~60, no.~5.
+\newblock P.~636--642.
+
+\bibitem{Derrien_2004}
+\selectlanguageifdefined{english}
+\BibEmph{Derrien~M., Vaughan~E.~E., Plugge~C.~M., de~Vos~W.~M.} Akkermansia
+  muciniphila gen. nov., sp. nov., a human intestinal mucin-degrading
+  bacterium~// \BibEmph{International journal of systematic and evolutionary
+  microbiology}.
+\newblock 2004.
+\newblock Vol.~54, no.~5.
+\newblock P.~1469--1476.
+
+\bibitem{De_Palma_2010}
+\selectlanguageifdefined{english}
+\BibEmph{De~Palma~G., Nadal~I., Medina~M. et~al.} Intestinal dysbiosis and
+  reduced immunoglobulin-coated bacteria associated with coeliac disease in
+  children~// \BibEmph{BMC microbiology}.
+\newblock 2010.
+\newblock Vol.~10, no.~1.
+\newblock P.~1.
+
+\bibitem{Larsen_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Larsen~N., Vogensen~F.~K., van~den Berg~F.~W. et~al.} Gut microbiota
+  in human adults with type 2 diabetes differs from non-diabetic adults~//
+  \BibEmph{PloS one}.
+\newblock 2010.
+\newblock Vol.~5, no.~2.
+\newblock P.~e9085.
+
+\bibitem{Turnbaugh_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Turnbaugh~P.~J., Hamady~M., Yatsunenko~T. et~al.} A core gut
+  microbiome in obese and lean twins~// \BibEmph{nature}.
+\newblock 2009.
+\newblock Vol. 457, no. 7228.
+\newblock P.~480--484.
+
+\bibitem{Tannock_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Tannock~G.} Molecular analysis of the intestinal microflora in IBD~//
+  \BibEmph{Mucosal immunology}.
+\newblock 2008.
+\newblock Vol.~1.
+\newblock P.~S15--S18.
+
+\bibitem{De_La_Cochetiere_2008}
+\selectlanguageifdefined{english}
+\BibEmph{De~La~Cocheti{\`e}re~M.-F., Durand~T., Lalande~V. et~al.} Effect of
+  antibiotic therapy on human fecal microbiota and the relation to the
+  development of Clostridium difficile~// \BibEmph{Microbial ecology}.
+\newblock 2008.
+\newblock Vol.~56, no.~3.
+\newblock P.~395--402.
+
+\bibitem{Lofmark_2006}
+\selectlanguageifdefined{english}
+\BibEmph{L{\"o}fmark~S., Jernberg~C., Jansson~J.~K., Edlund~C.}
+  Clindamycin-induced enrichment and long-term persistence of resistant
+  Bacteroides spp. and resistance genes~// \BibEmph{Journal of Antimicrobial
+  Chemotherapy}.
+\newblock 2006.
+\newblock Vol.~58, no.~6.
+\newblock P.~1160--1167.
+
+\bibitem{Tanaka_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Tanaka~S., Kobayashi~T., Songjinda~P. et~al.} Influence of antibiotic
+  exposure in the early postnatal period on the development of intestinal
+  microbiota~// \BibEmph{FEMS Immunology \& Medical Microbiology}.
+\newblock 2009.
+\newblock Vol.~56, no.~1.
+\newblock P.~80--87.
+
+\bibitem{McFarland_2008}
+\selectlanguageifdefined{english}
+\BibEmph{McFarland~L.~V.} Antibiotic-associated diarrhea: epidemiology, trends
+  and treatment.
+\newblock 2008.
+
+\bibitem{Pham_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Pham~M., Lemberg~D.~A., Day~A.~S.} Probiotics: sorting the evidence
+  from the myths~// \BibEmph{Medical Journal of Australia}.
+\newblock 2008.
+\newblock Vol. 189, no.~3.
+\newblock P.~182--182.
+
+\bibitem{Lupp_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Lupp~C., Robertson~M.~L., Wickham~M.~E. et~al.} Host-mediated
+  inflammation disrupts the intestinal microbiota and promotes the overgrowth
+  of Enterobacteriaceae~// \BibEmph{Cell host \& microbe}.
+\newblock 2007.
+\newblock Vol.~2, no.~2.
+\newblock P.~119--129.
+
+\bibitem{Stecher_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Stecher~B., Robbiani~R., Walker~A.~W. et~al.} Salmonella enterica
+  serovar typhimurium exploits inflammation to compete with the intestinal
+  microbiota~// \BibEmph{PLoS Biol}.
+\newblock 2007.
+\newblock Vol.~5, no.~10.
+\newblock P.~e244.
+
+\bibitem{Whary_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Whary~M., Danon~S., Feng~Y. et~al.} Rapid onset of ulcerative
+  typhlocolitis in B6. 129P2-IL10tm1Cgn (IL-10-/-) mice infected with
+  Helicobacter trogontum is associated with decreased colonization by altered
+  Schaedler's flora~// \BibEmph{Infection and immunity}.
+\newblock 2006.
+\newblock Vol.~74, no.~12.
+\newblock P.~6615--6623.
+
+\bibitem{Hunter_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Hunter~L., Cohen~K.~B.} Biomedical language processing: what's beyond
+  PubMed?~// \BibEmph{Molecular cell}.
+\newblock 2006.
+\newblock Vol.~21, no.~5.
+\newblock P.~589--594.
+
+\bibitem{Zhou_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Zhou~D., He~Y.} Extracting interactions between proteins from the
+  literature~// \BibEmph{Journal of biomedical informatics}.
+\newblock 2008.
+\newblock Vol.~41, no.~2.
+\newblock P.~393--407.
+
+\bibitem{Jamieson_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Jamieson~D.~G., Gerner~M., Sarafraz~F. et~al.} Towards semi-automated
+  curation: using text mining to recreate the HIV-1, human protein interaction
+  database~// \BibEmph{Database}.
+\newblock 2012.
+\newblock Vol. 2012.
+\newblock P.~bas023.
+
+\bibitem{Srinivasan_2004a}
+\selectlanguageifdefined{english}
+\BibEmph{Srinivasan~P., Libbus~B.} Mining MEDLINE for implicit links between
+  dietary substances and diseases~// \BibEmph{Bioinformatics}.
+\newblock 2004.
+\newblock Vol.~20, no. suppl 1.
+\newblock P.~i290--i296.
+
+\bibitem{Draghici_2003}
+\selectlanguageifdefined{english}
+\BibEmph{Draghici~S., Khatri~P., Martins~R.~P. et~al.} Global functional
+  profiling of gene expression~// \BibEmph{Genomics}.
+\newblock 2003.
+\newblock Vol.~81, no.~2.
+\newblock P.~98--104.
+
+\bibitem{Delfs_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Delfs~R., Doms~A., Kozlenkov~A., Schroeder~M.} GoPubMed:
+  ontology-based literature search applied to Gene Ontology and PubMed.~//
+  German Conference on Bioinformatics~/ Citeseer.
+\newblock Vol.~169.
+\newblock 2004.
+\newblock P.~178.
+
+\bibitem{Doms_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Doms~A., Schroeder~M.} GoPubMed: exploring PubMed with the gene
+  ontology~// \BibEmph{Nucleic acids research}.
+\newblock 2005.
+\newblock Vol.~33, no. suppl 2.
+\newblock P.~W783--W786.
+
+\bibitem{Dietze_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Dietze~H., Schroeder~M.} GoWeb: a semantic search engine for the life
+  science web~// \BibEmph{BMC bioinformatics}.
+\newblock 2009.
+\newblock Vol.~10, no.~10.
+\newblock P.~1.
+
+\bibitem{Muller_2004}
+\selectlanguageifdefined{english}
+\BibEmph{M{\"u}ller~H.-M., Kenny~E.~E., Sternberg~P.~W.} Textpresso: an
+  ontology-based information retrieval and extraction system for biological
+  literature~// \BibEmph{PLoS Biol}.
+\newblock 2004.
+\newblock Vol.~2, no.~11.
+\newblock P.~e309.
+
+\bibitem{Hoffmann_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Hoffmann~R., Valencia~A.} Implementing the iHOP concept for navigation
+  of biomedical literature~// \BibEmph{Bioinformatics}.
+\newblock 2005.
+\newblock Vol.~21, no. suppl 2.
+\newblock P.~ii252--ii258.
+
+\bibitem{Munkhdalai_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Munkhdalai~T., Li~M., Kim~T. et~al.} Bio named entity recognition
+  based on co-training algorithm~// Advanced Information Networking and
+  Applications Workshops (WAINA), 2012 26th International Conference on~/ IEEE.
+\newblock 2012.
+\newblock P.~857--862.
+
+\bibitem{Fukuda_1998}
+\selectlanguageifdefined{english}
+\BibEmph{Fukuda~K.-i., Tsunoda~T., Tamura~A. et~al.} Toward information
+  extraction: identifying protein names from biological papers~// Pac symp
+  biocomput~/ Citeseer.
+\newblock Vol.~707.
+\newblock 1998.
+\newblock P.~707--718.
+
+\bibitem{Hanisch_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Hanisch~D., Fundel~K., Mevissen~H.-T. et~al.} ProMiner: rule-based
+  protein and gene entity recognition~// \BibEmph{BMC bioinformatics}.
+\newblock 2005.
+\newblock Vol.~6, no. Suppl 1.
+\newblock P.~S14.
+
+\bibitem{Tsuruoka_2004}
+\selectlanguageifdefined{english}
+\BibEmph{Tsuruoka~Y., Tsujii~J.} Improving the performance of dictionary-based
+  approaches in protein name recognition~// \BibEmph{Journal of biomedical
+  informatics}.
+\newblock 2004.
+\newblock Vol.~37, no.~6.
+\newblock P.~461--470.
+
+\bibitem{Tsuruoka_2003}
+\selectlanguageifdefined{english}
+\BibEmph{Tsuruoka~Y., Tsujii~J.} Boosting precision and recall of
+  dictionary-based protein name recognition~// Proceedings of the ACL 2003
+  workshop on Natural language processing in biomedicine-Volume 13~/
+  Association for Computational Linguistics.
+\newblock 2003.
+\newblock P.~41--48.
+
+\bibitem{Cohen_2004}
+\selectlanguageifdefined{english}
+\BibEmph{Cohen~W.~W., Sarawagi~S.} Exploiting dictionaries in named entity
+  extraction: combining semi-markov extraction processes and data integration
+  methods~// Proceedings of the tenth ACM SIGKDD international conference on
+  Knowledge discovery and data mining~/ ACM.
+\newblock 2004.
+\newblock P.~89--98.
+
+\bibitem{Krauthammer_2000}
+\selectlanguageifdefined{english}
+\BibEmph{Krauthammer~M., Rzhetsky~A., Morozov~P., Friedman~C.} Using BLAST for
+  identifying gene and protein names in journal articles~// \BibEmph{Gene}.
+\newblock 2000.
+\newblock Vol. 259, no.~1.
+\newblock P.~245--252.
+
+\bibitem{Ju_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Ju~Z., Wang~J., Zhu~F.} Named entity recognition from biomedical text
+  using SVM~// Bioinformatics and Biomedical Engineering,(iCBBE) 2011 5th
+  International Conference on~/ IEEE.
+\newblock 2011.
+\newblock P.~1--4.
+
+\bibitem{Mitsumori_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Mitsumori~T., Fation~S., Murata~M. et~al.} Gene/protein name
+  recognition based on support vector machine using dictionary as features~//
+  \BibEmph{BMC bioinformatics}.
+\newblock 2005.
+\newblock Vol.~6, no.~1.
+\newblock P.~1.
+
+\bibitem{Finkel_2004}
+\selectlanguageifdefined{english}
+\BibEmph{Finkel~J., Dingare~S., Nguyen~H. et~al.} Exploiting context for
+  biomedical entity recognition: from syntax to the web~// Proceedings of the
+  International Joint Workshop on Natural Language Processing in Biomedicine
+  and its Applications~/ Association for Computational Linguistics.
+\newblock 2004.
+\newblock P.~88--91.
+
+\bibitem{Settles_2004}
+\selectlanguageifdefined{english}
+\BibEmph{Settles~B.} Biomedical named entity recognition using conditional
+  random fields and rich feature sets~// Proceedings of the International Joint
+  Workshop on Natural Language Processing in Biomedicine and its Applications~/
+  Association for Computational Linguistics.
+\newblock 2004.
+\newblock P.~104--107.
+
+\bibitem{Yang_2010a}
+\selectlanguageifdefined{english}
+\BibEmph{Yang~L., Zhou~Y.} Two-phase biomedical named entity recognition based
+  on semi-CRFs~// Bio-Inspired Computing: Theories and Applications (BIC-TA),
+  2010 IEEE Fifth International Conference on~/ IEEE.
+\newblock 2010.
+\newblock P.~1061--1065.
+
+\bibitem{Chan_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Chan~S.-K., Lam~W.} Efficient Methods for Biomedical Named Entity
+  Recognition~// 2007 IEEE 7th International Symposium on BioInformatics and
+  BioEngineering~/ IEEE.
+\newblock 2007.
+\newblock P.~729--735.
+
+\bibitem{Dredze_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Dredze~M., McNamee~P., Rao~D. et~al.} Entity disambiguation for
+  knowledge base population~// Proceedings of the 23rd International Conference
+  on Computational Linguistics~/ Association for Computational Linguistics.
+\newblock 2010.
+\newblock P.~277--285.
+
+\bibitem{Bunescu_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Bunescu~R.~C., Pasca~M.} Using Encyclopedic Knowledge for Named entity
+  Disambiguation.~// EACL.
+\newblock Vol.~6.
+\newblock 2006.
+\newblock P.~9--16.
+
+\bibitem{Cucerzan_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Cucerzan~S.} Large-Scale Named Entity Disambiguation Based on
+  Wikipedia Data.~// EMNLP-CoNLL.
+\newblock Vol.~7.
+\newblock 2007.
+\newblock P.~708--716.
+
+\bibitem{Aggarwal_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Aggarwal~C.~C., Zhai~C.} Mining text data.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{Zhou_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Zhou~D., Zhong~D., He~Y.} Biomedical relation extraction: from binary
+  to complex~// \BibEmph{Computational and mathematical methods in medicine}.
+\newblock 2014.
+\newblock Vol. 2014.
+
+\bibitem{Proux_2000}
+\selectlanguageifdefined{english}
+\BibEmph{Proux~D., Rechenmann~F., Julliard~L. et~al.} A pragmatic information
+  extraction strategy for gathering data on genetic interactions.~// ISMB.
+\newblock Vol.~8.
+\newblock 2000.
+\newblock P.~279--285.
+
+\bibitem{Raja_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Raja~K., Subramani~S., Natarajan~J.} PPInterFinder—a mining tool for
+  extracting causal relations on human proteins from literature~//
+  \BibEmph{Database}.
+\newblock 2013.
+\newblock Vol. 2013.
+\newblock P.~bas052.
+
+\bibitem{Rastier_2002}
+\selectlanguageifdefined{english}
+\BibEmph{Rastier~F., Cavazza~M., Abeill{\'e}~A.} Semantics for descriptions:
+  From linguistics to computer science. No. 138.
+\newblock Stanford Univ Center for the Study, 2002.
+
+\bibitem{Clegg_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Clegg~A.~B., Shepherd~A.~J.} Benchmarking natural-language parsers for
+  biological applications using dependency graphs~// \BibEmph{BMC
+  bioinformatics}.
+\newblock 2007.
+\newblock Vol.~8, no.~1.
+\newblock P.~1.
+
+\bibitem{Fundel_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Fundel~K., K{\"u}ffner~R., Zimmer~R.} RelEx—Relation extraction
+  using dependency parse trees~// \BibEmph{Bioinformatics}.
+\newblock 2007.
+\newblock Vol.~23, no.~3.
+\newblock P.~365--371.
+
+\bibitem{Bjorne_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Bj{\"o}rne~J., Heimonen~J., Ginter~F. et~al.} Extracting complex
+  biological events with rich graph-based feature sets~// Proceedings of the
+  Workshop on Current Trends in Biomedical Natural Language Processing: Shared
+  Task~/ Association for Computational Linguistics.
+\newblock 2009.
+\newblock P.~10--18.
+
+\bibitem{Bjorne_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Bj{\"o}rne~J., Salakoski~T.} TEES 2.1: Automated annotation scheme
+  learning in the BioNLP 2013 Shared Task~// Proceedings of the BioNLP Shared
+  Task 2013 Workshop.
+\newblock 2013.
+\newblock P.~16--25.
+
+\bibitem{Kilicoglu_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Kilicoglu~H., Bergler~S.} Syntactic dependency based heuristics for
+  biological event extraction~// Proceedings of the Workshop on Current Trends
+  in Biomedical Natural Language Processing: Shared Task~/ Association for
+  Computational Linguistics.
+\newblock 2009.
+\newblock P.~119--127.
+
+\bibitem{Bach_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Bach~N., Badaskar~S.} A review of relation extraction~//
+  \BibEmph{Literature review for Language and Statistics II}.
+\newblock 2007.
+
+\bibitem{Miwa_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Miwa~M., S{\ae}tre~R., Miyao~Y., Tsujii~J.} A rich feature vector for
+  protein-protein interaction extraction from multiple corpora~// Proceedings
+  of the 2009 Conference on Empirical Methods in Natural Language Processing:
+  Volume 1-Volume 1~/ Association for Computational Linguistics.
+\newblock 2009.
+\newblock P.~121--130.
+
+\bibitem{Song_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Song~M., Kim~W.~C., Lee~D. et~al.} PKDE4J: Entity and relation
+  extraction for public knowledge discovery~// \BibEmph{Journal of biomedical
+  informatics}.
+\newblock 2015.
+\newblock Vol.~57.
+\newblock P.~320--332.
+
+\bibitem{Miwa_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Miwa~M., S{\ae}tre~R., Kim~J.-D., Tsujii~J.} Event extraction with
+  complex event classification using rich features~// \BibEmph{Journal of
+  bioinformatics and computational biology}.
+\newblock 2010.
+\newblock Vol.~8, no.~01.
+\newblock P.~131--146.
+
+\bibitem{Miwa_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Miwa~M., Thompson~P., Ananiadou~S.} Boosting automatic event
+  extraction from the literature using domain adaptation and coreference
+  resolution~// \BibEmph{Bioinformatics}.
+\newblock 2012.
+\newblock Vol.~28, no.~13.
+\newblock P.~1759--1765.
+
+\bibitem{Lodhi_2002}
+\selectlanguageifdefined{english}
+\BibEmph{Lodhi~H., Saunders~C., Shawe-Taylor~J. et~al.} Text classification
+  using string kernels~// \BibEmph{Journal of Machine Learning Research}.
+\newblock 2002.
+\newblock Vol.~2, no. Feb.
+\newblock P.~419--444.
+
+\bibitem{Mooney_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Mooney~R.~J., Bunescu~R.~C.} Subsequence kernels for relation
+  extraction~// Advances in neural information processing systems.
+\newblock 2005.
+\newblock P.~171--178.
+
+\bibitem{Moschitti_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Moschitti~A.} Making Tree Kernels Practical for Natural Language
+  Learning.~// EACL.
+\newblock Vol.~113.
+\newblock 2006.
+\newblock P.~24.
+
+\bibitem{Airola_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Airola~A., Pyysalo~S., Bj{\"o}rne~J. et~al.} A graph kernel for
+  protein-protein interaction extraction~// Proceedings of the workshop on
+  current trends in biomedical natural language processing~/ Association for
+  Computational Linguistics.
+\newblock 2008.
+\newblock P.~1--9.
+
+\bibitem{Bunescu_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Bunescu~R.~C., Mooney~R.~J.} A shortest path dependency kernel for
+  relation extraction~// Proceedings of the conference on human language
+  technology and empirical methods in natural language processing~/ Association
+  for Computational Linguistics.
+\newblock 2005.
+\newblock P.~724--731.
+
+\bibitem{Miwa_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Miwa~M., S{\ae}tre~R., Miyao~Y. et~al.} Combining multiple layers of
+  syntactic information for protein-protein interaction extraction~//
+  Proceedings of the third international symposium on semantic mining in
+  biomedicine.
+\newblock 2008.
+\newblock P.~101--108.
+
+\bibitem{Bravo_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Bravo~{\`A}., Pi{\~n}ero~J., Queralt-Rosinach~N. et~al.} Extraction of
+  relations between genes and diseases from text and large-scale data analysis:
+  implications for translational research~// \BibEmph{BMC bioinformatics}.
+\newblock 2015.
+\newblock Vol.~16, no.~1.
+\newblock P.~1.
+
+\bibitem{Kim_2003}
+\selectlanguageifdefined{english}
+\BibEmph{Kim~J.-D., Ohta~T., Tateisi~Y., Tsujii~J.} GENIA corpus—a
+  semantically annotated corpus for bio-textmining~// \BibEmph{Bioinformatics}.
+\newblock 2003.
+\newblock Vol.~19, no. suppl 1.
+\newblock P.~i180--i182.
+
+\bibitem{Hirschman_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Hirschman~L., Yeh~A., Blaschke~C., Valencia~A.} Overview of
+  BioCreAtIvE: critical assessment of information extraction for biology~//
+  \BibEmph{BMC bioinformatics}.
+\newblock 2005.
+\newblock Vol.~6, no.~1.
+\newblock P.~1.
+
+\bibitem{Krallinger_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Krallinger~M., Morgan~A., Smith~L. et~al.} Evaluation of text-mining
+  systems for biology: overview of the Second BioCreative community
+  challenge~// \BibEmph{Genome biology}.
+\newblock 2008.
+\newblock Vol.~9, no.~2.
+\newblock P.~1.
+
+\bibitem{Leitner_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Leitner~F., Mardis~S.~A., Krallinger~M. et~al.} An overview of
+  BioCreative II. 5~// \BibEmph{IEEE/ACM Transactions on Computational Biology
+  and Bioinformatics}.
+\newblock 2010.
+\newblock Vol.~7, no.~3.
+\newblock P.~385--399.
+
+\bibitem{Arighi_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Arighi~C.~N., Lu~Z., Krallinger~M. et~al.} Overview of the BioCreative
+  III workshop~// \BibEmph{BMC bioinformatics}.
+\newblock 2011.
+\newblock Vol.~12, no.~8.
+\newblock P.~1.
+
+\bibitem{Arighi_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Arighi~C.~N., Carterette~B., Cohen~K.~B. et~al.} An overview of the
+  BioCreative 2012 Workshop Track III: interactive text mining task~//
+  \BibEmph{Database}.
+\newblock 2013.
+\newblock Vol. 2013.
+\newblock P.~bas056.
+
+\bibitem{Simpson_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Simpson~M.~S., Demner-Fushman~D.} Biomedical text mining: A survey of
+  recent progress~// Mining text data.
+\newblock Springer, 2012.
+\newblock P.~465--517.
+
+\bibitem{Neveol_2010}
+\selectlanguageifdefined{english}
+\BibEmph{N{\'e}v{\'e}ol~A., Lu~Z.} Automatic integration of drug indications
+  from multiple health resources~// Proceedings of the 1st ACM international
+  health informatics symposium~/ ACM.
+\newblock 2010.
+\newblock P.~666--673.
+
+\bibitem{Srinivasan_2002}
+\selectlanguageifdefined{english}
+\BibEmph{Srinivasan~P., Rindflesch~T.} Exploring text mining from MEDLINE.~//
+  Proceedings of the AMIA Symposium~/ American Medical Informatics Association.
+\newblock 2002.
+\newblock P.~722.
+
+\bibitem{Wang_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Wang~X., Hripcsak~G., Markatou~M., Friedman~C.} Active computerized
+  pharmacovigilance using natural language processing, statistics, and
+  electronic health records: a feasibility study~// \BibEmph{Journal of the
+  American Medical Informatics Association}.
+\newblock 2009.
+\newblock Vol.~16, no.~3.
+\newblock P.~328--337.
+
+\end{thebibliography}

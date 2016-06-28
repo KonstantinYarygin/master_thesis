@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.23)  28 JUN 2016 18:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.23)  28 JUN 2016 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,8 +46,8 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
-File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
@@ -875,30 +875,30 @@ e
 (./thesis_main.aux)
 \openout1 = `thesis_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -908,9 +908,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./thesis_main.out) (./thesis_main.out)
 \@outlinefile=\write3
@@ -947,15 +947,15 @@ LaTeX Info: Redefining \nameref on input line 32.
 * \textheight=702.7831pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-57.81723pt
-* \headheight=14.0pt
+* \topmargin=-55.81723pt
+* \headheight=12.0pt
 * \headsep=28.45274pt
-* \topskip=14.0pt
+* \topskip=12.0pt
 * \footskip=28.45274pt
-* \marginparwidth=15.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1001,7 +1001,7 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 (./abbreviations
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 13.70703pt
+(hyperref)                \hskip 11.74713pt
 (hyperref)                replaced by space on input line 1.
 
 [3
@@ -1009,74 +1009,142 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]) (./introduction
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 13.70703pt
+(hyperref)                \hskip 11.74713pt
 (hyperref)                replaced by space on input line 1.
 
 [4]
-
-Package natbib Warning: Citation `He_2009' on page 5 undefined on input line 7.
-
-
-
-Package natbib Warning: Citation `Saric_2006' on page 5 undefined on input line
- 7.
-
-
-Package natbib Warning: Citation `Chen_2008' on page 5 undefined on input line 
-7.
-
-
-Overfull \hbox (6.01492pt too wide) in paragraph at lines 7--8
-\T2A/cmr/m/n/14.4 тел^^?лек^^?ту^^?аль^^?ный ана^^?лиз био^^?ме^^?ди^^?цин^^?ск
-их тек^^?стов (»ј^^?Ѕ“, \T2A/cmr/m/it/14.4 ан^^?гл.\T2A/cmr/m/n/14.4 : biomedic
-al
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
  [5]) (./review
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 13.70703pt
+(hyperref)                \hskip 11.74713pt
 (hyperref)                replaced by space on input line 1.
 
-) (./thesis_main.bbl)
 
-Package natbib Warning: There were undefined citations.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 11.74713pt
+(hyperref)                replaced by space on input line 3.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Overfull \hbox (1.15027pt too wide) in paragraph at lines 16--17
+[]\T2A/cmr/m/n/12 ћетаболическа€ ак^^?тив^^?ность бак^^?те^^?рий в ки^^?шеч^^?н
+ой мик^^?ро^^?био^^?те мо^^?жет иметь силь^^?
+ []
+
+[7] [8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 11.74713pt
+(hyperref)                replaced by space on input line 34.
+
+[9]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 38.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Overfull \hbox (6.78896pt too wide) in paragraph at lines 38--39
+\T2A/cmr/m/n/12 дер^^?жит бо^^?лее 25 мил^^?ли^^?о^^?нов ссы^^?лок на на^^?уч^^
+?ную ли^^?те^^?ра^^?ту^^?ру из ба^^?зы дан^^?ных MEDLINE,
+ []
+
+[10] [11]
+Overfull \hbox (2.17897pt too wide) in paragraph at lines 74--75
+\T2A/cmr/m/n/12 GoWeb [[]]([][]$\T2A/cmtt/m/n/12 http : / / gopubmed . org / we
+b / goweb/$[][]\T2A/cmr/m/n/12 ) ком^^?би^^?ни^^?ру^^?ет веб-^^?поиск на ос^^?н
+о^^?ве клю^^?
+ []
+
+[12]
+Overfull \hbox (4.14592pt too wide) in paragraph at lines 88--89
+[]\T2A/cmr/m/n/12 ¬тора€ груп^^?па --- по^^?иск, ос^^?но^^?ван^^?ный на сло^^?в
+а^^?ре (\T2A/cmr/m/it/12 ан^^?гл.\T2A/cmr/m/n/12 : dictionary-^^?based approach
+).
+ []
+
+[13] [14] [15]
+Overfull \hbox (3.11009pt too wide) in paragraph at lines 120--121
+[]\T2A/cmr/m/n/12 √рамматика со^^?став^^?л€^^?ю^^?щих пред^^?став^^?л€^^?ет пре
+д^^?ло^^?же^^?ние как иерар^^?хи^^?че^^?скую струк^^?
+ []
+
+
+Overfull \hbox (9.48996pt too wide) in paragraph at lines 120--121
+\T2A/cmr/m/n/12 constituent). ¬ та^^?ком ви^^?де слож^^?ные грам^^?ма^^?ти^^?че
+^^?ские еди^^?ни^^?цы скла^^?ды^^?ва^^?ют^^?с€ из несколь^^?
+ []
+
+[16] <pictures/cons_tree.jpg, id=285, 178.81238pt x 92.68442pt>
+File: pictures/cons_tree.jpg Graphic file (type jpg)
+
+<use pictures/cons_tree.jpg>
+Package pdftex.def Info: pictures/cons_tree.jpg used on input line 133.
+(pdftex.def)             Requested size: 455.24411pt x 236.00833pt.
+
+<pictures/dep_tree.jpg, id=289, 169.05263pt x 116.08281pt>
+File: pictures/dep_tree.jpg Graphic file (type jpg)
+
+<use pictures/dep_tree.jpg>
+Package pdftex.def Info: pictures/dep_tree.jpg used on input line 142.
+(pdftex.def)             Requested size: 455.24411pt x 312.6395pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./pictures/cons_tree.jpg>] [18 <./pictures/dep_tree.jpg>] [19]
+Overfull \hbox (15.05861pt too wide) in paragraph at lines 163--164
+\T2A/cmr/m/n/12 лее тща^^?тель^^?но раз^^?ме^^?чен^^?ных кор^^?пу^^?сов €в^^?л€
+^^?ет^^?с€ кор^^?пус GENIA [[]] ([][]$\T2A/cmtt/m/n/12 http : / / www-[]tsujii 
+.
+ []
+
+[20] [21]) (./thesis_main.bbl [22
+
+] [23] [24] [25] [26]
+Underfull \hbox (badness 1331) in paragraph at lines 543--548
+[]\T2A/cmr/m/n/12 Yang L., Zhou Y. Two-phase biomed^^?i^^?cal named en^^?ti^^?t
+y recog^^?ni^^?tion based on
+ []
+
+[27] [28] [29])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+ [30]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
  (./thesis_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `thesis_main.out' has not changed.
-(rerunfilecheck)             Checksum: 00ACDF8670740567BECF77105050377E;530.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+(rerunfilecheck)             Checksum: 41058A0DB851380B14CE338894511726;1368.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 13471 strings out of 494515
- 191119 string characters out of 6173718
- 264206 words of memory out of 5000000
- 16465 multiletter control sequences out of 15000+600000
- 12525 words of font info for 35 fonts, out of 8000000 for 9000
+ 13985 strings out of 494515
+ 200108 string characters out of 6173718
+ 269179 words of memory out of 5000000
+ 16808 multiletter control sequences out of 15000+600000
+ 17283 words of font info for 46 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 43i,5n,40p,2420b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </hom
-e/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/konsta
-ntin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/konstantin/.te
-xmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk> </home/konstantin/.texmf-var/
-fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/konstantin/.texmf-var/fonts/pk
-/ljfour/lh/lh-t2a/larm1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb>
-Output written on thesis_main.pdf (6 pages, 85230 bytes).
+ 43i,7n,41p,2858b,843s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1095.600pk> </hom
+e/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1200.600pk> </home/konsta
+ntin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </home/konstantin/.te
+xmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/konstantin/.texmf-var/
+fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/konstantin/.texmf-var/fonts/pk
+/ljfour/lh/lh-t2a/larm1440.600pk> </home/konstantin/.texmf-var/fonts/pk/ljfour/
+lh/lh-t2a/labx1728.600pk> </home/konstantin/.texmf-var/fonts/pk/ljfour/lh/lh-t2
+a/larm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on thesis_main.pdf (30 pages, 339252 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 888 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 159 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 

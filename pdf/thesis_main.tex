@@ -1,11 +1,12 @@
-\documentclass[master,14pt,subf,href,colorlinks=true
-%,times        % шрифт Times как основной
+\documentclass[master,12pt,subf,href,colorlinks=true
+% ,times        % шрифт Times как основной
 %,fixint=false % отключить прямые знаки интегралов
 ]{disser}
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{mathtools}
+\usepackage{url}
 
 \usepackage[a4paper, mag=1000, includefoot, left=3cm, right=2cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm]{geometry}
 \usepackage[T2A]{fontenc}
@@ -18,7 +19,7 @@
 %\chapterpagestyle{empty}
 
 % Точка с запятой в качестве разделителя между номерами цитирований
-%\setcitestyle{semicolon}
+\setcitestyle{semicolon}
 
 % Использовать полужирное начертание для векторов
 \let\vec=\mathbf
@@ -26,7 +27,7 @@
 % Включать подсекции в оглавление
 \setcounter{tocdepth}{2}
 
-\graphicspath{{figure/}}
+\graphicspath{{pictures/}}
 
 
 \begin{document}
@@ -35,7 +36,10 @@
 \input{abbreviations}
 \input{introduction}
 \input{review}
+
+\bibliographystyle{gost705}
 \bibliography{bibliography}
+
 \end{document}
 % рекомендуется оформлять текст шрифтом Times New Roman от 12 до 14 pt
 % межстрочный интервал 1.5
