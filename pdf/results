@@ -1,0 +1,120 @@
+\section{Результаты и обсуждение}
+
+Всего во всех текстах трех исследуемых корпусов текстов было найдено 46916 предложений, содержащих пары сущностей ``бактерия-нутриент'' или ``бактерия-болезнь'' (Таблица~\ref{result}).
+
+\begin{table}[ht]
+\caption{Количество предложений с найденными парами сущностей из двух разных групп..}\label{result}
+\centering
+\hspace{-1.5cm}
+\begin{tabular}{|P{4cm}|P{2.7cm}|P{2.7cm}|P{2.7cm}|P{2.7cm}|}
+\hline
+
+&
+\textbf{Полные тексты PubMed Central} &
+\textbf{Полные тексты Libgen} &
+\textbf{Тексты аннотаций PubMed Central} &
+\textbf{Все корпуса} \\ \hline
+
+``Бактерия-болезнь'' &
+10634 &
+17504 &
+1778 &
+29916 \\ \hline
+
+``Бактерия-нутриент'' &
+7185 &
+9007 &
+808 &
+17000 \\ \hline
+
+Все &
+17819 &
+26511 &
+2586 &
+\textbf{46916} \\ \hline
+\end{tabular}
+\end{table}
+
+В 46916 предолжениях с обнаруженной со-встречаемостью сущностей было найдено 13084 отношений, зафиксированных паттернами: 8818 отношений между болезнью и бактерией и 4266 отношений между бактерией и нутриентом.
+
+\subsection{Отношения между бактериями и болезнями}
+
+Среди исследованных текстов было найдено 8818 отношений между болезнями и бактериями, из них 2366 уникальных. Большинство отношений было найдено с помощью паттерна №3 (Рис.~\ref{disease_patterns}):
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{disease_pattern_count-crop.pdf}
+    \end{center}
+\caption{Количество взаимодействий типа ``бактерия-болезнь'', обнаруженных с помощью каждого паттерна.}\label{disease_patterns}
+\end{figure}
+
+Чаще всего в статьях упоминают бактерии \emph{Escherichia coli}, \emph{Helicobacter pylori} и \emph{Peptoclostridium difficile}, и такие болезни как колит, диарея, синдром раздраженного кишечника (СРК) и ожирение (Рис.~\ref{disease_top_disease},  Рис.~\ref{disease_top_bacteria})
+
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{disease_top_disease-crop.pdf}
+    \end{center}
+\caption{Болезни, наиболее часто входящие в отношения типа ``бактерия-болезнь''.}\label{disease_top_disease}
+\end{figure}
+
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{disease_top_bacteria-crop.pdf}
+    \end{center}
+\caption{Бактерии, наиболее часто входящие в отношения типа ``бактерия-болезнь''.}\label{disease_top_bacteria}
+\end{figure}
+
+Самые частоупоминаемые отношения между бактерией и болезнью --- \emph{Peptoclostridium difficile} и \emph{Escherichia coli} вызывает диарею, а представленность бактерий типа \emph{Firmicutes} положительно коррелирует с ожирением. На рисунке~\ref{bacteria_disease_top} показаны отношения, которые были найдены максимальное количество раз.
+
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{bacteria_disease_top-crop.pdf}
+    \end{center}
+\caption{Самые частоупоминаемые отношения типа ``бактерия-болезнь''.}\label{bacteria_disease_top}
+\end{figure}
+
+Видно, что некоторые найденные отношения противоречат другим, например в некоторых отношениях \emph{Peptoclostridium difficile} вызывает диарею, в других --- вызывает протективное действие. Нахождение вторых --- результат ложноположительного срабатывания того или иного паттерна. Например, в предложении
+
+\emph{Meta-analysis of probiotics for the prevention of antibiotic associated \textbf{diarrhea} and the \textbf{treatment} of \textbf{Clostridium difficile} disease.}
+
+паттерн №3 идентифицировал протективное действие \emph{Clostridium difficile} при диареи.
+
+\subsection{Отношения между бактериями и нутриентами}
+
+Во всех исследованных текстах было найдено 4266 отношений между бактериями и нутриентами и 2018 уникальных отношений. Самыми результативными оказалить паттерны №4 и №1 (Рис.~\ref{nutrients_patterns})
+
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{nutrient_pattern_count-crop.pdf}
+    \end{center}
+\caption{Количество взаимодействий типа ``бактерия-нутриент'', обнаруженных с помощью каждого паттерна.}\label{nutrients_patterns}
+\end{figure}
+
+Бактерии, которые чаще всего упоминаются в контексте взаимодействий с нутриентами --- это \emph{Escherichia coli}, \emph{Bifidobacterium} и \emph{Lactobacillus} (Рис.~\ref{nutrient_top_bacteria}). Стоит заметить, что последние две являются пробиотиками, т.е. бактериями, для которых подтверждено положительное влияние на микробиоту и которые используются в терапевтических целях. Самые упоминаемые нутриенты же это углеводы, в частности целлюлоза, глюкоза и крахмал --- основные источники пищи для кишечных бактерий (Рис.~\ref{nutrient_top_nutrient}).
+
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{nutrient_top_bacteria-crop.pdf}
+    \end{center}
+\caption{Бактерии, наиболее часто входящие в отношения типа ``бактерия-нутриент''.}\label{nutrient_top_bacteria}
+\end{figure}
+
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{nutrient_top_nutrient-crop.pdf}
+    \end{center}
+\caption{Нутриеты, наиболее часто входящие в отношения типа ``бактерия-нутриент''.}\label{nutrient_top_nutrient}
+\end{figure}
+
+Самые часто упоминаемые отношения состоят в основном из фактов об использовании углеводов различными бактериями в качестве субстратов (Рис.~\ref{bacteria_nutrient_top}). Однако стоит отметить способность \emph{Pseudomonas aeruginosa} производить альгиновую кислоту и метаболизирование серина и пролина бактерией \emph{Campylobacter jejuni}.
+
+\begin{figure}[ht]
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{bacteria_nutrient_top-crop.pdf}
+    \end{center}
+\caption{Самые частоупоминаемые отношения типа ``бактерия-нутриент''.}\label{bacteria_nutrient_top}
+\end{figure}
+
+\subsection{Валидация результатов}
+Отношения, полученные в результате работы программы были вручную проверены на предмет содержания найденного факта. Из 229 предложениях, которые были классифицированы как содержащие отношения между бактерией и нутриентом, 193 действительно содержали такие отношения и 36 предложений были классифицированы ошибочно. Так же, из 72 предложений, содержащих отношения между бактерией и болезнью 60 были классифицированы правильно и 12 ошибочно. Итого, точность нахождения связи ``бактерия-болезнь'' --- 0,83, точность нахождения связи ``бактерия-нутриент'' --- 0,84.
+
+\newpage

@@ -4,6 +4,7 @@ The top-level auxiliary file: thesis_main.aux
 The style file: gost705.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10967 items from 5000.
 Database file #1: bibliography.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--can't use both volume and number fields in Smith_2007
@@ -11,45 +12,45 @@ Warning--empty journal in McFarland_2008
 Warning--can't use both volume and number fields in Fukuda_1998
 Warning--there's a number but no series in Rastier_2002
 Warning--can't use both volume and number fields in Moschitti_2006
-You've used 98 entries,
+You've used 117 entries,
             3568 wiz_defined-function locations,
-            1681 strings with 30800 characters,
-and the built_in function-call counts, 43145 in all, are:
-= -- 5635
-> -- 1228
-< -- 127
-+ -- 405
-- -- 307
-* -- 2612
-:= -- 4533
-add.period$ -- 461
-call.type$ -- 98
+            1792 strings with 34823 characters,
+and the built_in function-call counts, 51067 in all, are:
+= -- 6653
+> -- 1468
+< -- 156
++ -- 484
+- -- 367
+* -- 3098
+:= -- 5364
+add.period$ -- 550
+call.type$ -- 117
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 103
-duplicate$ -- 2145
-empty$ -- 4044
-format.name$ -- 307
-if$ -- 11468
+cite$ -- 122
+duplicate$ -- 2551
+empty$ -- 4785
+format.name$ -- 367
+if$ -- 13570
 int.to.chr$ -- 0
-int.to.str$ -- 98
+int.to.str$ -- 117
 missing$ -- 0
-newline$ -- 671
-num.names$ -- 98
-pop$ -- 532
+newline$ -- 798
+num.names$ -- 117
+pop$ -- 635
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1972
+skip$ -- 2327
 stack$ -- 0
-substring$ -- 2397
-swap$ -- 1736
-text.length$ -- 127
+substring$ -- 2776
+swap$ -- 2063
+text.length$ -- 156
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 333
-width$ -- 100
-write$ -- 1602
+while$ -- 391
+width$ -- 120
+write$ -- 1909
 (There were 5 warnings)

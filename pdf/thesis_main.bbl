@@ -7,7 +7,7 @@
 \cyr\cyrd\cyra\cyrt\cyra\ %
 \cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -840,5 +840,164 @@
 \newblock 2009.
 \newblock Vol.~16, no.~3.
 \newblock P.~328--337.
+
+\bibitem{Swanson_1991}
+\selectlanguageifdefined{english}
+\BibEmph{Swanson~D.~R.} Complementary structures in disjoint science
+  literatures~// Proceedings of the 14th annual international ACM SIGIR
+  conference on Research and development in information retrieval~/ ACM.
+\newblock 1991.
+\newblock P.~280--289.
+
+\bibitem{Swanson_1986}
+\selectlanguageifdefined{english}
+\BibEmph{Swanson~D.~R.} Fish oil, Raynaud's syndrome, and undiscovered public
+  knowledge~// \BibEmph{Perspectives in biology and medicine}.
+\newblock 1986.
+\newblock Vol.~30, no.~1.
+\newblock P.~7--18.
+
+\bibitem{Ramadan_1989}
+\selectlanguageifdefined{english}
+\BibEmph{Ramadan~N., Halvorson~H., Vande-Linde~A. et~al.} Low brain magnesium
+  in migraine~// \BibEmph{Headache: The Journal of Head and Face Pain}.
+\newblock 1989.
+\newblock Vol.~29, no.~9.
+\newblock P.~590--593.
+
+\bibitem{Ferrari_1992}
+\selectlanguageifdefined{english}
+\BibEmph{Ferrari~M.} Biochemistry of migraine.~//
+  \BibEmph{Pathologie-biologie}.
+\newblock 1992.
+\newblock Vol.~40, no.~4.
+\newblock P.~287--292.
+
+\bibitem{Weeber_2003}
+\selectlanguageifdefined{english}
+\BibEmph{Weeber~M., Vos~R., Klein~H. et~al.} Generating hypotheses by
+  discovering implicit associations in the literature: a case report of a
+  search for new potential therapeutic uses for thalidomide~// \BibEmph{Journal
+  of the American Medical Informatics Association}.
+\newblock 2003.
+\newblock Vol.~10, no.~3.
+\newblock P.~252--259.
+
+\bibitem{Srinivasan_2004b}
+\selectlanguageifdefined{english}
+\BibEmph{Srinivasan~P., Libbus~B., Sehgal~A.~K.} Mining medline: Postulating a
+  beneficial role for curcumin longa in retinal diseases~// Workshop BioLINK,
+  linking biological literature, ontologies and databases at HLT NAACL.
+\newblock 2004.
+\newblock P.~33--40.
+
+\bibitem{Frijters_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Frijters~R., Van~Vugt~M., Smeets~R. et~al.} Literature mining for the
+  discovery of hidden connections between drugs, genes and diseases~//
+  \BibEmph{PLoS Comput Biol}.
+\newblock 2010.
+\newblock Vol.~6, no.~9.
+\newblock P.~e1000943.
+
+\bibitem{Jelier_2008}
+\selectlanguageifdefined{english}
+\BibEmph{Jelier~R., Schuemie~M.~J., Veldhoven~A. et~al.} Anni 2.0: a
+  multipurpose text-mining tool for the life sciences~// \BibEmph{Genome
+  biology}.
+\newblock 2008.
+\newblock Vol.~9, no.~6.
+\newblock P.~1.
+
+\bibitem{Yang_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Yang~Y., Adelstein~S.~J., Kassis~A.~I.} Target discovery from data
+  mining approaches~// \BibEmph{Drug discovery today}.
+\newblock 2009.
+\newblock Vol.~14, no.~3.
+\newblock P.~147--154.
+
+\bibitem{van_Haagen_2009}
+\selectlanguageifdefined{english}
+\BibEmph{van Haagen~H.~H., AC't~Hoen~P., Bovo~A.~B. et~al.} Novel
+  protein-protein interactions inferred from literature context~//
+  \BibEmph{PLoS One}.
+\newblock 2009.
+\newblock Vol.~4, no.~11.
+\newblock P.~e7894.
+
+\bibitem{Elkin_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Elkin~P.~L., Tuttle~M.~S., Trusko~B.~E., Brown~S.~H.} BioProspecting:
+  novel marker discovery obtained by mining the bibleome~// \BibEmph{BMC
+  bioinformatics}.
+\newblock 2009.
+\newblock Vol.~10, no.~2.
+\newblock P.~1.
+
+\bibitem{Yang_2010b}
+\selectlanguageifdefined{english}
+\BibEmph{Yang~Z., Lin~H., Li~Y.} BioPPISVMExtractor: A protein--protein
+  interaction extractor for biomedical literature using SVM and rich feature
+  sets~// \BibEmph{Journal of biomedical informatics}.
+\newblock 2010.
+\newblock Vol.~43, no.~1.
+\newblock P.~88--96.
+
+\bibitem{Narayanaswamy_2005}
+\selectlanguageifdefined{english}
+\BibEmph{Narayanaswamy~M., Ravikumar~K., Vijay-Shanker~K.} Beyond the clause:
+  extraction of phosphorylation information from medline abstracts~//
+  \BibEmph{Bioinformatics}.
+\newblock 2005.
+\newblock Vol.~21, no. suppl 1.
+\newblock P.~i319--i327.
+
+\bibitem{Ozgur_2010}
+\selectlanguageifdefined{english}
+\BibEmph{{\"O}zg{\"u}r~A., Xiang~Z., Radev~D.~R., He~Y.} Literature-Based
+  Discovery of IFN-gamma and Vaccine-Mediated Gene Interaction Networks~//
+  \BibEmph{BioMed Research International}.
+\newblock 2010.
+\newblock Vol. 2010.
+
+\bibitem{Jelier_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Jelier~R., Jenster~G., Dorssers~L.~C. et~al.} Text-derived concept
+  profiles support assessment of DNA microarray data for acute myeloid leukemia
+  and for androgen receptor stimulation~// \BibEmph{BMC bioinformatics}.
+\newblock 2007.
+\newblock Vol.~8, no.~1.
+\newblock P.~1.
+
+\bibitem{Ritari_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Ritari~J., Saloj{\"a}rvi~J., Lahti~L., de~Vos~W.~M.} Improved
+  taxonomic assignment of human intestinal 16S rRNA sequences by a dedicated
+  reference database~// \BibEmph{BMC genomics}.
+\newblock 2015.
+\newblock Vol.~16, no.~1.
+\newblock P.~1056.
+
+\bibitem{Schriml_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Schriml~L.~M., Arze~C., Nadendla~S. et~al.} Disease Ontology: a
+  backbone for disease semantic integration~// \BibEmph{Nucleic acids
+  research}.
+\newblock 2012.
+\newblock Vol.~40, no.~D1.
+\newblock P.~D940--D946.
+
+\bibitem{Bird_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Bird~S., Klein~E., Loper~E.} Natural language processing with Python.
+\newblock " O'Reilly Media, Inc.", 2009.
+
+\bibitem{Chen_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Chen~D., Manning~C.~D.} A Fast and Accurate Dependency Parser using
+  Neural Networks.~// EMNLP.
+\newblock 2014.
+\newblock P.~740--750.
 
 \end{thebibliography}

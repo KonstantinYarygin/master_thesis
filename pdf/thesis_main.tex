@@ -7,6 +7,16 @@
 \usepackage{graphicx}
 \usepackage{mathtools}
 \usepackage{url}
+\usepackage{courier}
+\usepackage{array}
+\usepackage{enumitem}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{hyperref}
+\hypersetup{
+     colorlinks   = false,
+     citecolor    = gray
+}
+
 
 \usepackage[a4paper, mag=1000, includefoot, left=3cm, right=2cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm]{geometry}
 \usepackage[T2A]{fontenc}
@@ -14,9 +24,9 @@
 \ifpdf\usepackage{epstopdf}\fi
 
 % Номера страниц сверху и по центру
-%\def\headfont{\small}
-%\pagestyle{headcenter}
-%\chapterpagestyle{empty}
+\def\footfont{\small}
+\pagestyle{footcenter}
+\chapterpagestyle{empty}
 
 % Точка с запятой в качестве разделителя между номерами цитирований
 \setcitestyle{semicolon}
@@ -25,22 +35,24 @@
 \let\vec=\mathbf
 
 % Включать подсекции в оглавление
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{3}
 
 \graphicspath{{pictures/}}
 
 
 \begin{document}
 \input{thesis_title}
-\tableofcontents % это оглавление, которое генерируется автоматически
+\tableofcontents
 \input{abbreviations}
 \input{introduction}
 \input{review}
-
+\input{methods}
+\input{results}
+\input{conclusion}
 \bibliographystyle{gost705}
 \bibliography{bibliography}
-
 \end{document}
+
 % рекомендуется оформлять текст шрифтом Times New Roman от 12 до 14 pt
 % межстрочный интервал 1.5
 % выравнивание в абзацах по ширине
